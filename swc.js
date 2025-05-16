@@ -30,7 +30,6 @@ function calculate() {
             result = "Invalid operator!";
     }
 
-    document.getElementById("answer").innerText = `Result: ${result}`;
     document.getElementById("answer").innerText = `${output} of ${a} and ${b} = ${result}`;
 
 
